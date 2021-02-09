@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FlightPool</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container header__container">
+			<div class="header__inner">
+				<div class="header__logo">
+					<img class="logo__img" src="media1/logo.png" alt="plane">
+				</div>
+				<nav class="header__nav">
+					<a href="#" class="nav__item">Акции</a>
+					<a href="#" class="nav__item">Поиск</a>
+					<a href="#" class="nav__item">Регистрация на рейс</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="search">
+		<div class="container search__container">
+			<div class="search__inner">
+				<div class="inner__title-block search__title-block">
+					<h1 class="inner__title search__title">Поиск билетов</h1>
+				</div>
+				<div class="inner__content search__content">
+					<form class="search__form">
+						<div class="search__item-block">
+							<label for="from">Откуда</label>
+							<input class="search__item" id="from" type="text" placeholder="Отправление">
+						</div>
+						<div class="search__item-block">
+							<label for="to">Куда</label>
+							<input class="search__item" id="to" type="text" placeholder="Назначние">
+						</div>
+						<div class="search__item-block">
+							<label for="tuda">Туда</label>
+							<input class="search__item" id="tuda" type="date">
+						</div>
+						<div class="search__item-block">
+							<label for="obratno">Обратно</label>
+							<input class="search__item" id="obratno" type="date">
+						</div>
+						<div class="search__item-block">
+							<label for="amount">Количество пассажиров</label>
+							<input class="search__item" id="amount" type="number" placeholder="Количество" max="8" min="1">
+						</div>
+						<div class="search__item-block">
+							<input class="search__submit button" type="submit" value="Найти">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="promo">
+		<div class="container promo__container">
+			<div class="promo__inner inner">
+				<div class="inner__title-block promo__title-block">
+					<h1 class="inner__title promo__title">Акции</h1>
+				</div>
+				<div class="inner__content promo__content">
+					<div class="promo__item">
+						<div class="promo__pic-block">
+							<img class="promo__pic" src="media1/images/promotions/promotion1.jpg" alt="travel">
+						</div>
+						<div class="promo__text">
+							<div class="promo-item__title-block">
+								<h3 class="promo-item__title">Returning and Changing Your Tickets</h3>
+							</div>
+							<div class="promo-item__about-block">
+								<p class="promo-item__about">The pandemic has changed many travelers’ plans, but we know that it will not last forever. Once all of this is over, we will continue exploring this world the way we used to. Special rules that have been developed for this challenging situation will help you cancel your trip or postpone it until later.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,111 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat';
+}
+
+a {
+	text-decoration: none;
+}
+
+input {
+	outline: none;
+}
+
+.container {
+	width: 100%;
+	max-width: 1080px;
+	height: inherit;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: orange;
+}
+
+.header__inner {
+	padding: 15px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo__img {
+	width: 150px;
+}
+
+.header__nav {
+	width: 350px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav__item {
+	color: white;
+	transition: color .2s linear;
+}
+
+.nav__item:hover {
+	color: #000;
+}
+
+.inner__title-block {
+	text-align: center;
+	margin: 30px 0;
+}
+
+.inner__content {
+	margin: 40px 0 25px 0;
+}
+
+.search__form {
+	display: flex;
+	justify-content: space-between;
+}
+
+.search__item-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.search__item {
+	padding: 5px 10px;
+	margin-top: 10px;
+}
+
+.search__item:hover {
+	border-color: orange;
+}
+
+.button {
+	width: 130px;
+	height: 30px;
+	cursor: pointer;
+	background-color: white;
+	border: 1px solid black;
+	transition: background .3s linear;
+}
+.button:hover {
+	background-color: orange;
+}
+
+.promo__item {
+	display: flex;
+	padding: 10px 0;
+	border-bottom: 1px solid black;
+}
+
+.promo__pic-block {
+	margin-right: 30px;
+}
+
+.promo__pic {
+	width: 250px;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url(media1/fonts/montserrat/Montserrat-Regular.ttf);
+}
